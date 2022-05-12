@@ -72,7 +72,7 @@ function NavBar() {
 
 function MyApp({ Component , pageProps  }) {
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-        className: "container text-base md:text-2xl mx-auto flex flex-col items-center",
+        className: "container text-base md:text-xl mx-auto flex flex-col items-center",
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx(NavBar, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(Component, {
