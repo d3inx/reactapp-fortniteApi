@@ -32,7 +32,7 @@ const NewItems = ({ newItems }) => {
               <a className="w-1/2 md:w-1/4 lg:w-1/6" key={item.id}>
               <div className="m-4 ring-2 ring-gray-900">
                 <Image src={item.images.icon} width={512} height={512} layout='responsive' />
-                <div className="bg-zinc-700/60 p-2 text-white flex flex-col text-center text-sm">
+                <div className="bg-zinc-700/60 p-2 text-white flex flex-col text-center">
                   <span>{item.name}</span>
                   <span className="mt-2 p-2 bg-gray-900">{item.type.displayValue}</span>
                 </div>

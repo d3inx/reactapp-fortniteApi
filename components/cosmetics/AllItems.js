@@ -83,7 +83,7 @@ const AllItems = () => {
                 height={512}
                 layout="responsive"
               />
-              <div className="bg-zinc-700/60 p-2 text-white flex flex-col text-center text-sm">
+              <div className="bg-zinc-700/60 p-2 text-white flex flex-col text-center">
                 <div>{item.name}</div>
                 <span className="mt-2 p-2 bg-gray-900">
                   {item.type.displayValue}
