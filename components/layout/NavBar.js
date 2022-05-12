@@ -16,7 +16,7 @@ export default function NavBar() {
           <Link href={`/${category.link}`} key={category.name}>
             <a
               key={category.name}
-              className={`w-full rounded-lg active:text-slate-700 text-sm font-medium leading-5 text-center cursor-pointer text-white ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none ${
+              className={`w-full rounded-lg active:text-slate-700 leading-5 text-center cursor-pointer text-white ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none ${
                 router.pathname == `/${category.link}`
                   ? "bg-white shadow text-slate-700"
                   : router.pathname == `/${category.link2}`

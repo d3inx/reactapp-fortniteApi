@@ -54,7 +54,7 @@ function NavBar() {
             children: categories.map((category)=>/*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                     href: `/${category.link}`,
                     children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                        className: `w-full rounded-lg active:text-slate-700 text-sm font-medium leading-5 text-center cursor-pointer text-white ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none ${router.pathname == `/${category.link}` ? "bg-white shadow text-slate-700" : router.pathname == `/${category.link2}` ? "bg-white shadow text-slate-700" : "text-blue-100 hover:bg-white/[0.12] hover:text-white"}`,
+                        className: `w-full rounded-lg active:text-slate-700 leading-5 text-center cursor-pointer text-white ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none ${router.pathname == `/${category.link}` ? "bg-white shadow text-slate-700" : router.pathname == `/${category.link2}` ? "bg-white shadow text-slate-700" : "text-blue-100 hover:bg-white/[0.12] hover:text-white"}`,
                         children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
                             className: "py-2.5",
                             children: category.name

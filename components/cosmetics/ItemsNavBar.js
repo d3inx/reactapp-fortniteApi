@@ -16,7 +16,7 @@ export default function ItemsNavBar() {
         {categories.map((category) => (
           <li
             key={category.name}
-            className={`w-1/3 py-2.5 active:text-slate-700 text-sm font-medium leading-5 text-center cursor-pointer text-white ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none ${router.pathname == `/${category.link}` ? 'bg-white shadow text-slate-700': 'text-white hover:bg-white/[0.12] hover:text-white'}`}>
+            className={`w-1/3 py-2.5 active:text-slate-700 leading-5 text-center cursor-pointer text-white ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none ${router.pathname == `/${category.link}` ? 'bg-white shadow text-slate-700': 'text-white hover:bg-white/[0.12] hover:text-white'}`}>
             <Link href={`/${category.link}`}>
               <a className="py-3">{category.name}</a>
             </Link>
