@@ -1,5 +1,5 @@
 import ItemsNavBar from "../../components/cosmetics/ItemsNavBar";
-import NewItems from "../../components/cosmetics/newItems";
+import NewItems from "../../components/cosmetics/NewItems";
 const newCosmetics = () => {
   return (
     <>

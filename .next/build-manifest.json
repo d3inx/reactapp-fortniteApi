@@ -5,9 +5,9 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/MOgBIOYyZ1WJzG6PP96d9/_buildManifest.js",
-    "static/MOgBIOYyZ1WJzG6PP96d9/_ssgManifest.js",
-    "static/MOgBIOYyZ1WJzG6PP96d9/_middlewareManifest.js"
+    "static/pH3fLkmwfm-TnaUp476EJ/_buildManifest.js",
+    "static/pH3fLkmwfm-TnaUp476EJ/_ssgManifest.js",
+    "static/pH3fLkmwfm-TnaUp476EJ/_middlewareManifest.js"
   ],
   "pages": {
     "/": [
@@ -54,7 +54,7 @@
       "static/chunks/main-f65e66e62fc5ca80.js",
       "static/chunks/669-b4a56b7adf507d17.js",
       "static/chunks/675-0079ab64284695c7.js",
-      "static/chunks/pages/cosmetics/new-44befc7a7c1af838.js"
+      "static/chunks/pages/cosmetics/new-8d2754ec378ee0ba.js"
     ],
     "/shops": [
       "static/chunks/webpack-9b312e20a4e32339.js",

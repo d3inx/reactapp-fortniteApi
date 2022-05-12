@@ -1,4 +1,3 @@
-
 import { createContext } from "react";
 import { useState } from "react";
 import PlayerStats from "../components/playerstats/PlayerStats";
@@ -13,7 +12,7 @@ export default function Main() {
   });
   return (
     <AppContext.Provider value={{ playerInfo, setPlayerInfo }}>
-        <PlayerStats />
+      <PlayerStats />
     </AppContext.Provider>
   );
 }

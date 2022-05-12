@@ -1,9 +1,7 @@
 import ItemShop from "../components/shops/ItemShop";
 
 const shops = () => {
-  return (
-      <ItemShop />
-  );
+  return <ItemShop />;
 };
 
 export default shops;
