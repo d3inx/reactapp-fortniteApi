@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'BurbankBigRegular';
+  src: url('./../public/fonts/BurbankBigRegular-Black.otf');
+  font-weight: 400;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: BurbankBigRegular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: rgb(114, 235, 242);
+  background: linear-gradient(140deg, rgba(114, 235, 242, 1) 0%, rgba(24, 128, 254, 1) 75%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.swiper-button-prev {
+  background-image: url('./../public/svg/LeftArrow.svg');
+}
+
+.swiper-button-next {
+  background-image: url('./../public/svg/RightArrow.svg');
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #fff !important;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  width: 4rem !important;
+
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}
