@@ -4,7 +4,7 @@ import "../styles/globals.css";
 function MyApp({ Component, pageProps }) {
   return (
     
-    <div className="container text-base md:text-xl mx-auto flex flex-col items-center">
+    <div className="container text-base md:text-2xl mx-auto flex flex-col items-center">
       <NavBar />
       <Component {...pageProps} />
     </div>
