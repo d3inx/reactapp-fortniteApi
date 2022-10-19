@@ -42,7 +42,7 @@ const PlayerStats = () => {
         <input
           type="text"
           className="outline-none w-full md:w-1/4 px-2"
-          placeholder="UserName..."
+          placeholder="UserName... Try d3inx"
           value={playerInfo !== undefined ? playerInfo.playerName : ""}
           onChange={(e) => {
             setPlayerInfo((prevState) => ({

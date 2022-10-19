@@ -6,7 +6,7 @@ export default function NavBar() {
   const router = useRouter();
   const [categories] = useState([
     { name: `PLAYER STATS`, link: "" },
-    { name: `COSMETICS`, link: "cosmetics", link2: "cosmetics/new" },
+    { name: `COSMETICS`, link: "cosmetics/new", link2: "cosmetics" },
     { name: `ITEM SHOP`, link: "shops" },
   ]);
   return (

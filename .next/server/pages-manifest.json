@@ -3,9 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/[type]/[name]": "pages/[type]/[name].js",
-  "/cosmetics": "pages/cosmetics.html",
-  "/cosmetics/new": "pages/cosmetics/new.html",
-  "/": "pages/index.html",
-  "/shops": "pages/shops.html",
-  "/404": "pages/404.html"
+  "/shops": "pages/shops.js"
 }

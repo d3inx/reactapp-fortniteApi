@@ -83,7 +83,7 @@ const ItemShop = () => {
               navigation
               className="mySwiper w-full"
             >
-              {shopData.featured.entries.map((item) => (
+              {shopData.featured?.entries?.map((item) => (
                 <SwiperSlide className="overflow-hidden aspect-[2/3] cursor-pointer">
                   <Image
                     src={
